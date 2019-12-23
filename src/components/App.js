@@ -1,7 +1,7 @@
 import React from 'react';
-import BeaconScanner from './BeaconScanner';
+import AppContainer from '../Navigators/Navigator';
 export default class App extends React.Component {
   render() {
-    return <BeaconScanner />;
+    return <AppContainer />;
   }
 }
